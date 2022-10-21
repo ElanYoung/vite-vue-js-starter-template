@@ -3,10 +3,10 @@
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatility"></a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-3.1.7-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-3.1.8-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-2.7.11-brightgreen.svg" alt="vue">
+    <img src="https://img.shields.io/badge/vue-3.2.37-brightgreen.svg" alt="vue">
   </a>
   <a href="https://github.com/vuejs/vue-router">
     <img src="https://img.shields.io/badge/vue--router-3.5.4-brightgreen.svg" alt="vue-router">
@@ -19,11 +19,11 @@
 </p>
 
 <p align='center'>
-  <b>Vite3</b> + <b>Vue2</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Vuex</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
+  <b>Vite3</b> + <b>Vue2</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Pinia</b> + <b>TDesign</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
 </p>
 
 <p align='center'>
-  <a href="https://elanyoung.github.io/vite-vue2-js-starter-template">Live Demo</a>
+  <a href="https://elanyoung.github.io/vite-vue-js-starter-template">Live Demo</a>
 </p>
 
 <p align="center">
@@ -62,11 +62,11 @@
 
 ## Try it now!
 
-> Vite3 Vue2 JavaScript Starter Template requires Node >= 14.18
+> Vite3 Vue3 JavaScript Starter Template requires Node >= 14.18
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/ElanYoung/vite-vue2-js-template-starter/generate).
+[Create a repo from this template on GitHub](https://github.com/ElanYoung/vite-vue-js-template-starter/generate).
 
 ### Clone to local
 
@@ -74,10 +74,10 @@ If you prefer to do it manually with the cleaner git history
 
 ```bash
 # clone repository
-git clone https://github.com/ElanYoung/vite-vue2-js-template-starter
+git clone https://github.com/ElanYoung/vite-vue-js-template-starter
 
-# open folder vite-vue2-js-template-starter
-cd vite-vue2-js-template-starter
+# open folder vite-vue-js-template-starter
+cd vite-vue-js-template-starter
 
 # install packages
 npm i
