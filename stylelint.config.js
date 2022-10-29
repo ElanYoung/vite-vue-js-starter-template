@@ -56,6 +56,8 @@ module.exports = {
         ignorePseudoElements: ['v-deep'],
       },
     ],
+    // 不允许未知单位
+    'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
     'order/properties-order': [
       'position',
       'top',
