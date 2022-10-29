@@ -5,7 +5,7 @@ import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import { TDesignResolver } from 'unplugin-vue-components/resolvers';
 
-export default (mode) => {
+export default ({ mode }) => {
   const { VITE_PORT, VITE_BASE_URL } = loadEnv(mode, process.cwd());
 
   return defineConfig({
