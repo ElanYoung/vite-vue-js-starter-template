@@ -62,6 +62,8 @@ module.exports = defineConfig({
     'no-duplicate-imports': 'error',
     // 禁止在对象中使用不必要的计算属性
     'no-useless-computed-key': 'error',
+    // 禁止不必要的转义字符
+    'no-useless-escape': 0,
     // 强制使用一致的缩进
     indent: ['error', 2],
     // 强制使用骆驼拼写法命名约定

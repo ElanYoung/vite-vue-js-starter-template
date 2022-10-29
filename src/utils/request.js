@@ -12,7 +12,6 @@ const instance = axios.create({
 // 前置拦截器（发起请求之前的拦截）
 instance.interceptors.request.use(
   (config) => {
-    console.log(config);
     /**
      * 在这里一般会携带前台的参数发送给后台，比如下面这段代码：
      * const token = getToken()
@@ -54,51 +53,51 @@ instance.interceptors.response.use(
  * @param {object} data
  * @param {object} params
  */
-export function post(url, data = {}, params = {}) {
+export const post = (url, data = {}, params = {}) => {
   return instance({
     method: 'post',
     url,
     data,
     params,
   });
-}
+};
 
 /**
  * @param {string} url
  * @param {object} params
  */
-export function get(url, params = {}) {
+export const get = (url, params = {}) => {
   return instance({
     method: 'get',
     url,
     params,
   });
-}
+};
 
 /**
  * @param {string} url
  * @param {object} data
  * @param {object} params
  */
-export function put(url, data = {}, params = {}) {
+export const put = (url, data = {}, params = {}) => {
   return instance({
     method: 'put',
     url,
     params,
     data,
   });
-}
+};
 
 /**
  * @param {string} url
  * @param {object} params
  */
-export function _delete(url, params = {}) {
+export const _delete = (url, params = {}) => {
   return instance({
     method: 'delete',
     url,
     params,
   });
-}
+};
 
 export default instance;
