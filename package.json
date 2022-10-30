@@ -11,10 +11,10 @@
   "homepage": "https://elanyoung.github.io/vite-vue-js-starter-template",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ElanYoung/vite-vue-js-template-starter.git"
+    "url": "git@github.com:ElanYoung/vite-vue-js-starter-template.git"
   },
   "bugs": {
-    "url": "https://github.com/ElanYoung/vite-vue-js-template-starter/issues"
+    "url": "https://github.com/ElanYoung/vite-vue-js-starter-template/issues"
   },
   "scripts": {
     "dev": "vite",
@@ -42,7 +42,7 @@
     "eslint": "^8.26.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-define-config": "^1.8.0",
+    "eslint-define-config": "^1.10.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.6.0",
