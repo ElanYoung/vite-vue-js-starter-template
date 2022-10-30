@@ -1,21 +1,27 @@
 <h1 align="center"><a href="https://github.com/ElanYoung/vite-vue-js-starter-template" target="_blank">Vite 3 🚀 - Vue 3  Starter Template</a></h1>
 
 <p align="center">
-  <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatility"></a>
+  <a href="https://nodejs.org/en/about/releases/">
+    <img src="https://img.shields.io/node/v/vite.svg" alt="node compatility" />
+  </a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
     <img src="https://img.shields.io/badge/vite-3.2.1-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-3.2.41-brightgreen.svg" alt="vue">
+    <img src="https://img.shields.io/badge/vue-3.2.41-brightgreen.svg" alt="vue" />
   </a>
   <a href="https://github.com/vuejs/router">
-    <img src="https://img.shields.io/badge/vue--router-4.1.6-brightgreen.svg" alt="vue-router">
+    <img src="https://img.shields.io/badge/vue--router-4.1.6-brightgreen.svg" alt="vue-router" />
   </a>
   <a href="https://github.com/vuejs/pinia">
-    <img src="https://img.shields.io/badge/pinia-3.0.23-brightgreen.svg" alt="pinia">
+    <img src="https://img.shields.io/badge/pinia-3.0.23-brightgreen.svg" alt="pinia" />
   </a>
-  <a href="https://doc.starimmortal.com"><img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg"/></a>
-  <a href="https://github.com/ElanYoung/spring-boot-learning-examples/blob/master/LICENSE"><img alt="LICENSE" src="https://img.shields.io/github/license/ElanYoung/spring-boot-learning-examples.svg"/></a>
+  <a href="https://doc.starimmortal.com">
+    <img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg" />
+  </a>
+  <a href="https://github.com/ElanYoung/vite-vue-js-starter-template/blob/master/LICENSE">
+    <img alt="LICENSE" src="https://img.shields.io/github/license/ElanYoung/vite-vue-js-starter-template.svg" />
+  </a>
 </p>
 
 <p align='center'>
