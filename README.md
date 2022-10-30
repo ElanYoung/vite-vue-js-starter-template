@@ -1,18 +1,18 @@
-<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue2-js-template-starter" target="_blank">Vite 3 🚀 - Vue 3  Starter Template</a></h1>
+<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue-js-starter-template" target="_blank">Vite 3 🚀 - Vue 3  Starter Template</a></h1>
 
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatility"></a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-3.1.8-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-3.2.1-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-3.2.37-brightgreen.svg" alt="vue">
+    <img src="https://img.shields.io/badge/vue-3.2.41-brightgreen.svg" alt="vue">
   </a>
-  <a href="https://github.com/vuejs/vue-router">
-    <img src="https://img.shields.io/badge/vue--router-3.5.4-brightgreen.svg" alt="vue-router">
+  <a href="https://github.com/vuejs/router">
+    <img src="https://img.shields.io/badge/vue--router-4.1.6-brightgreen.svg" alt="vue-router">
   </a>
-  <a href="https://github.com/vuejs/vuex">
-    <img src="https://img.shields.io/badge/vuex-3.6.2-brightgreen.svg" alt="vuex">
+  <a href="https://github.com/vuejs/pinia">
+    <img src="https://img.shields.io/badge/pinia-3.0.23-brightgreen.svg" alt="pinia">
   </a>
   <a href="https://doc.starimmortal.com"><img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg"/></a>
   <a href="https://github.com/ElanYoung/spring-boot-learning-examples/blob/master/LICENSE"><img alt="LICENSE" src="https://img.shields.io/github/license/ElanYoung/spring-boot-learning-examples.svg"/></a>
@@ -66,7 +66,7 @@
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/ElanYoung/vite-vue-js-template-starter/generate).
+[Create a repo from this template on GitHub](https://github.com/ElanYoung/vite-vue-js-starter-template/generate).
 
 ### Clone to local
 
@@ -74,10 +74,10 @@ If you prefer to do it manually with the cleaner git history
 
 ```bash
 # clone repository
-git clone https://github.com/ElanYoung/vite-vue-js-template-starter
+git clone https://github.com/ElanYoung/vite-vue-js-starter-template
 
-# open folder vite-vue-js-template-starter
-cd vite-vue-js-template-starter
+# open folder vite-vue-js-starter-template
+cd vite-vue-js-starter-template
 
 # install packages
 npm i

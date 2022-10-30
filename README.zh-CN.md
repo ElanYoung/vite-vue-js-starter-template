@@ -1,12 +1,18 @@
-<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue2-js-template-starter" target="_blank">Vite 3 🚀 - Vue 3  Starter Template</a></h1>
+<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue-js-starter-template" target="_blank">Vite 3 🚀 - Vue 3  Starter Template</a></h1>
 
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatility"></a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-3.1.8-3963bc.svg" alt="vue-cli" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-3.2.1-3963bc.svg" alt="vue-cli" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/core">
-    <img src="https://img.shields.io/badge/vue-3.2.37-brightgreen.svg" alt="vue">
+    <img src="https://img.shields.io/badge/vue-3.2.41-brightgreen.svg" alt="vue">
+  </a>
+  <a href="https://github.com/vuejs/router">
+    <img src="https://img.shields.io/badge/vue--router-4.1.6-brightgreen.svg" alt="vue-router">
+  </a>
+  <a href="https://github.com/vuejs/pinia">
+    <img src="https://img.shields.io/badge/pinia-3.0.23-brightgreen.svg" alt="pinia">
   </a>
   <a href="https://doc.starimmortal.com"><img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg"/></a>
   <a href="https://github.com/ElanYoung/spring-boot-learning-examples/blob/master/LICENSE"><img alt="LICENSE" src="https://img.shields.io/github/license/ElanYoung/spring-boot-learning-examples.svg"/></a>
@@ -61,7 +67,7 @@
 
 ### GitHub 模板
 
-[使用这个模板创建仓库](https://github.com/ElanYoung/vite-vue-js-template-starter/generate).
+[使用这个模板创建仓库](https://github.com/ElanYoung/vite-vue-js-starter-template/generate).
 
 ### 克隆到本地
 
@@ -69,10 +75,10 @@
 
 ```bash
 # 克隆
-git clone https://github.com/ElanYoung/vite-vue-js-template-starter
+git clone https://github.com/ElanYoung/vite-vue-js-starter-template
 
 # 打开文件夹
-cd vite-vue-js-template-starter
+cd vite-vue-js-starter-template
 
 # 安装依赖
 npm i
