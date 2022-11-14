@@ -64,8 +64,10 @@ module.exports = defineConfig({
     'no-useless-computed-key': 'error',
     // 禁止不必要的转义字符
     'no-useless-escape': 0,
+    // 禁用 continue 语句
+    'no-continue': 0,
     // 强制使用一致的缩进
-    indent: ['error', 2],
+    indent: ['error', 2, { SwitchCase: 1 }],
     // 强制使用骆驼拼写法命名约定
     camelcase: 0,
     // 强制类方法使用 this
@@ -86,5 +88,7 @@ module.exports = defineConfig({
     'prefer-const': 'error',
     // 强制箭头函数的箭头前后使用一致的空格
     'arrow-spacing': 'error',
+    // 只强制对象解构，不强制数组解构
+    'prefer-destructuring': ['error', { object: true, array: false }],
   },
 });
