@@ -5,10 +5,10 @@
     <img src="https://img.shields.io/node/v/vite.svg" alt="node compatility" />
   </a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-3.2.1-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-3.2.3-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/core">
-    <img src="https://img.shields.io/badge/vue-3.2.41-brightgreen.svg" alt="vue" />
+    <img src="https://img.shields.io/badge/vue-3.2.45-brightgreen.svg" alt="vue" />
   </a>
   <a href="https://github.com/vuejs/router">
     <img src="https://img.shields.io/badge/vue--router-4.1.6-brightgreen.svg" alt="vue-router" />
@@ -80,6 +80,9 @@
 如果您更喜欢使用更干净的 git 历史记录手动执行此操作
 
 ```bash
+# [可选] 如果您使用的是 windows 系统，需要关闭换行符自动转换
+git config --global core.autocrlf input
+
 # 克隆
 git clone https://github.com/ElanYoung/vite-vue-js-starter-template
 
@@ -121,6 +124,10 @@ npm run dev
 ## 构建
 npm run build
 ```
+
+## 成就
+
+🎉 被 [Awesome Vite.Js](https://github.com/vitejs/awesome-vite#vue-3) 社区收录啦~
 
 ## 开源协议
 

@@ -5,10 +5,10 @@
     <img src="https://img.shields.io/node/v/vite.svg" alt="node compatility" />
   </a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-3.2.1-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-3.2.3-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-3.2.41-brightgreen.svg" alt="vue" />
+    <img src="https://img.shields.io/badge/vue-3.2.45-brightgreen.svg" alt="vue" />
   </a>
   <a href="https://github.com/vuejs/router">
     <img src="https://img.shields.io/badge/vue--router-4.1.6-brightgreen.svg" alt="vue-router" />
@@ -79,6 +79,9 @@
 If you prefer to do it manually with the cleaner git history
 
 ```bash
+# [optional] if you are using Windows, you need to close the end-of-line conversion
+git config --global core.autocrlf input
+
 # clone repository
 git clone https://github.com/ElanYoung/vite-vue-js-starter-template
 
@@ -120,6 +123,10 @@ npm run dev
 ## build
 npm run build
 ```
+
+## Achievement
+
+🎉 Added to the [Awesome Vite.Js](https://github.com/vitejs/awesome-vite#vue-3)
 
 ## License
 
