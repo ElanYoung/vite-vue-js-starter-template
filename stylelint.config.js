@@ -11,6 +11,8 @@ module.exports = {
     'selector-class-pattern': null,
     // 禁止空源码
     'no-empty-source': null,
+    // 禁止在覆盖高特异性选择器之后出现低特异性选择器
+    'no-descending-specificity': null,
     // 指定字符串使用单引号
     'string-quotes': 'single',
     // 禁止未知的@规则
@@ -34,30 +36,16 @@ module.exports = {
     // 指定@规则名的大小写
     'at-rule-name-case': 'lower',
     // 指定缩进
-    indentation: [
-      2,
-      {
-        severity: 'warning',
-      },
-    ],
+    indentation: [2, { severity: 'warning' }],
     // 不允许值使用供应商前缀
     'value-no-vendor-prefix': null,
     // 禁止未知的伪类选择器
-    'selector-pseudo-class-no-unknown': [
-      true,
-      {
-        ignorePseudoClasses: ['global'],
-      },
-    ],
+    'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: ['global'] }],
     // 禁止未知的伪元素选择器
-    'selector-pseudo-element-no-unknown': [
-      true,
-      {
-        ignorePseudoElements: ['v-deep'],
-      },
-    ],
+    'selector-pseudo-element-no-unknown': [true, { ignorePseudoElements: ['v-deep'] }],
     // 不允许未知单位
     'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
+    // CSS属性排序
     'order/properties-order': [
       'position',
       'top',
@@ -137,6 +125,7 @@ module.exports = {
       'transition',
     ],
   },
+  ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
   overrides: [
     {
       files: ['*.vue', '**/*.vue', '*.html', '**/*.html'],
