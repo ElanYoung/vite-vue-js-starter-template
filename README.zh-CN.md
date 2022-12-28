@@ -134,3 +134,35 @@ npm run build
 [MIT](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2022 ElanYoung
+
+## 问题
+  若eslint配置有问题啊，全是飘红、typesc.json配置路径别名问题
+  解决办法：
+  ```
+    settings: {
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx']
+    },
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      },
+      alias: {
+        map: [['@', './src']]
+      }
+    }
+  },
+  // 在rules中修改规则
+  'import/extensions': [
+    'error',
+    'ignorePackages',
+    {
+      js: 'never',
+      jsx: 'never',
+      ts: 'never',
+      tsx: 'never'
+    }
+  ]
+  ```
+
