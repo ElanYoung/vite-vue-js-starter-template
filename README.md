@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/vue--router-4.1.6-brightgreen.svg" alt="vue-router" />
   </a>
   <a href="https://github.com/vuejs/pinia">
-    <img src="https://img.shields.io/badge/pinia-3.0.23-brightgreen.svg" alt="pinia" />
+    <img src="https://img.shields.io/badge/pinia-2.0.28-brightgreen.svg" alt="pinia" />
   </a>
   <a href="https://doc.starimmortal.com">
     <img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg" />
