@@ -1,20 +1,20 @@
-<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue-js-starter-template" target="_blank">Vite 3 🚀 - Vue 3  Starter Template</a></h1>
+<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue-js-starter-template" target="_blank">Vite 4 🚀 - Vue 3  Starter Template</a></h1>
 
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/">
     <img src="https://img.shields.io/node/v/vite.svg" alt="node compatility" />
   </a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-3.2.4-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-4.1.2-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-3.2.45-brightgreen.svg" alt="vue" />
+    <img src="https://img.shields.io/badge/vue-3.2.47-brightgreen.svg" alt="vue" />
   </a>
   <a href="https://github.com/vuejs/router">
     <img src="https://img.shields.io/badge/vue--router-4.1.6-brightgreen.svg" alt="vue-router" />
   </a>
   <a href="https://github.com/vuejs/pinia">
-    <img src="https://img.shields.io/badge/pinia-2.0.28-brightgreen.svg" alt="pinia" />
+    <img src="https://img.shields.io/badge/pinia-2.0.33-brightgreen.svg" alt="pinia" />
   </a>
   <a href="https://doc.starimmortal.com">
     <img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg" />
@@ -25,7 +25,7 @@
 </p>
 
 <p align='center'>
-  <b>Vite3</b> + <b>Vue3</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Pinia</b> + <b>TDesign</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
+  <b>Vite4</b> + <b>Vue3</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Pinia</b> + <b>TDesign</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
 </p>
 
 <p align='center'>
@@ -38,7 +38,7 @@
 
 ## Features
 
-+ ⚡️ [Vite 3](https://github.com/vitejs/vite) - born with fastness
++ ⚡️ [Vite 4](https://github.com/vitejs/vite) - born with fastness
 + 🖖 [Vue 3](https://github.com/vuejs/core) - Composition API and `<script setup>`
 + 🚦 [Vue Router](https://github.com/vuejs/router) - The official router for Vue.js.
 + 📦 [Pinia](https://github.com/vuejs/pinia) - Intuitive, type safe and flexible Store for Vue
@@ -68,7 +68,7 @@
 
 ## Try it now!
 
-> Vite3 Vue3 JavaScript Starter Template requires Node >= 14.18
+> Vite4 Vue3 JavaScript Starter Template requires Node >= 14.18
 
 ### GitHub Template
 
