@@ -7,7 +7,6 @@ module.exports = {
     'stylelint-config-html/html', // the shareable html config for Stylelint.
     'stylelint-config-html/vue', // the shareable vue config for Stylelint.
     'stylelint-config-recess-order', // use the clean order for properties
-    'stylelint-config-prettier', // turn off any rules that conflict with Prettier
   ],
   rules: {
     // 禁止在覆盖高特异性选择器之后出现低特异性选择器
@@ -38,6 +37,8 @@ module.exports = {
     'function-no-unknown': null,
     // 不允许未知单位
     'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
+    // 标记 CSS 规范中未知属性值
+    'declaration-property-value-no-unknown': true,
     // 不允许选择器使用供应商前缀
     'selector-no-vendor-prefix': null,
     // 指定关键帧名称的模式
@@ -48,12 +49,6 @@ module.exports = {
     'value-no-vendor-prefix': null,
     // 要求或禁止在规则之前的空行
     'rule-empty-line-before': ['always', { ignore: ['after-comment', 'first-nested'] }],
-    // 指定字符串使用单引号
-    'string-quotes': 'single',
-    // 指定@规则名的大小写
-    'at-rule-name-case': 'lower',
-    // 指定缩进
-    indentation: [2, { severity: 'warning' }],
   },
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
   overrides: [
