@@ -27,7 +27,7 @@ jobs:
 
       - name: Install
         # 安装依赖
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build
         # 打包
