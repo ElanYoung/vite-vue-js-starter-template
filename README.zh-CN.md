@@ -5,16 +5,16 @@
     <img src="https://img.shields.io/node/v/vite.svg" alt="node compatility" />
   </a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-4.3.1-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-4.3.9-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/core">
-    <img src="https://img.shields.io/badge/vue-3.2.47-brightgreen.svg" alt="vue" />
+    <img src="https://img.shields.io/badge/vue-3.3.4-brightgreen.svg" alt="vue" />
   </a>
   <a href="https://github.com/vuejs/router">
-    <img src="https://img.shields.io/badge/vue--router-4.1.6-brightgreen.svg" alt="vue-router" />
+    <img src="https://img.shields.io/badge/vue--router-4.2.2-brightgreen.svg" alt="vue-router" />
   </a>
   <a href="https://github.com/vuejs/pinia">
-    <img src="https://img.shields.io/badge/pinia-2.0.35-brightgreen.svg" alt="pinia" />
+    <img src="https://img.shields.io/badge/pinia-2.1.3-brightgreen.svg" alt="pinia" />
   </a>
   <a href="https://doc.starimmortal.com">
     <img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg" />
