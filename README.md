@@ -1,20 +1,20 @@
-<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue-js-starter-template" target="_blank">Vite 4 🚀 - Vue 3  Starter Template</a></h1>
+<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue-js-starter-template" target="_blank">Vite 5 🚀 - Vue 3  Starter Template</a></h1>
 
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/">
     <img src="https://img.shields.io/node/v/vite.svg" alt="node compatility" />
   </a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-4.3.9-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-5.0.2-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-3.3.4-brightgreen.svg" alt="vue" />
+    <img src="https://img.shields.io/badge/vue-3.3.9-brightgreen.svg" alt="vue" />
   </a>
   <a href="https://github.com/vuejs/router">
-    <img src="https://img.shields.io/badge/vue--router-4.2.2-brightgreen.svg" alt="vue-router" />
+    <img src="https://img.shields.io/badge/vue--router-4.2.5-brightgreen.svg" alt="vue-router" />
   </a>
   <a href="https://github.com/vuejs/pinia">
-    <img src="https://img.shields.io/badge/pinia-2.1.3-brightgreen.svg" alt="pinia" />
+    <img src="https://img.shields.io/badge/pinia-2.1.7-brightgreen.svg" alt="pinia" />
   </a>
   <a href="https://doc.starimmortal.com">
     <img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg" />
@@ -25,7 +25,7 @@
 </p>
 
 <p align='center'>
-  <b>Vite4</b> + <b>Vue3</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Pinia</b> + <b>TDesign</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
+  <b>Vite5</b> + <b>Vue3</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Pinia</b> + <b>TDesign</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
 </p>
 
 <p align='center'>
@@ -38,26 +38,29 @@
 
 ## Features
 
-+ ⚡️ [Vite 4](https://github.com/vitejs/vite) - born with fastness
++ ⚡️ [Vite 5](https://github.com/vitejs/vite) - born with fastness
 + 🖖 [Vue 3](https://github.com/vuejs/core) - Composition API and `<script setup>`
 + 🚦 [Vue Router](https://github.com/vuejs/router) - The official router for Vue.js.
 + 📦 [Pinia](https://github.com/vuejs/pinia) - Intuitive, type safe and flexible Store for Vue
 + 💻 [TDesign](https://github.com/Tencent/tdesign-vue-next) - Vue Next for Web
 + 🎨 [Less](https://github.com/less/less.js) - It's CSS, with just a little more
++ 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - Use Composition API and others directly
++ 😃 [Icons auto install](https://github.com/unplugin/unplugin-icons) - Access thousands of icons as components on-demand universally.
 + 🔗 [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
 + 🧰 [Husky](https://typicode.github.io/husky/#/) + [Lint-Staged](https://github.com/okonet/lint-staged) - Git Hook Tools
-+ 🛡️ [EditorConfig](http://editorconfig.org) + [ESLint](http://eslint.org) + [Prettier](https://prettier.io) + [Stylelint](https://stylelint.io) + [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#translation) - Code Standards
++ 🛡️ [EditorConfig](http://editorconfig.org) + [ESLint](http://eslint.org) + [Prettier](https://prettier.io) + [Stylelint](https://stylelint.io) - Code Standards
 + 🔨 [Commitizen](https://cz-git.qbb.sh/zh) + [Commitlint](https://commitlint.js.org) - Submit Standards
 
 ## Coding Style
 
-+ [ESLint](https://eslint.org) with [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
-+ [Prettier](https://prettier.io) with [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
-+ [Stylelint](https://stylelint.io) with [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
++ Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
++ [ESLint](https://eslint.org)
++ [Prettier](https://prettier.io)
++ [Stylelint](https://stylelint.io)
 
 ## Development Tools
 
-+ [npm](https://www.npmjs.com) - Package manager
++ [pnpm](https://pnpm.io/) - fast, disk space efficient package manager
 + [Visual Stuido Code Extensions](./.vscode/extensions.json)
   + [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
   + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE support
@@ -68,7 +71,7 @@
 
 ## Try it now!
 
-> Vite4 Vue3 JavaScript Starter Template requires Node >= 14.18
+> Vite5 Vue3 JavaScript Starter Template requires Node >= 18.00
 
 ### GitHub Template
 

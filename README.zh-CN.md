@@ -1,20 +1,20 @@
-<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue-js-starter-template" target="_blank">Vite 4 🚀 - Vue 3  Starter Template</a></h1>
+<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue-js-starter-template" target="_blank">Vite 5 🚀 - Vue 3  Starter Template</a></h1>
 
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/">
     <img src="https://img.shields.io/node/v/vite.svg" alt="node compatility" />
   </a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-4.3.9-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-5.0.2-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/core">
-    <img src="https://img.shields.io/badge/vue-3.3.4-brightgreen.svg" alt="vue" />
+    <img src="https://img.shields.io/badge/vue-3.3.9-brightgreen.svg" alt="vue" />
   </a>
   <a href="https://github.com/vuejs/router">
-    <img src="https://img.shields.io/badge/vue--router-4.2.2-brightgreen.svg" alt="vue-router" />
+    <img src="https://img.shields.io/badge/vue--router-4.2.5-brightgreen.svg" alt="vue-router" />
   </a>
   <a href="https://github.com/vuejs/pinia">
-    <img src="https://img.shields.io/badge/pinia-2.1.3-brightgreen.svg" alt="pinia" />
+    <img src="https://img.shields.io/badge/pinia-2.1.7-brightgreen.svg" alt="pinia" />
   </a>
   <a href="https://doc.starimmortal.com">
     <img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg" />
@@ -25,7 +25,7 @@
 </p>
 
 <p align='center'>
-  <b>Vite4</b> + <b>Vue3</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Pinia</b> + <b>TDesign</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
+  <b>Vite5</b> + <b>Vue3</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Pinia</b> + <b>TDesign</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
 </p>
 
 <p align='center'>
@@ -38,27 +38,30 @@
 
 ## 特性
 
-+ ⚡️ [Vite 4](https://cn.vitejs.dev) - 构建工具（就是快！）
++ ⚡️ [Vite 5](https://cn.vitejs.dev) - 构建工具（就是快！）
 + 🖖 [Vue 3](https://cn.vuejs.org) - 渐进式 JavaScript 框架
 + 🚦 [Vue Router](https://router.vuejs.org/zh) - 官方路由管理器
 + 📦 [Pinia](https://pinia.vuejs.org/zh) - 值得你喜欢的 Vue Store
 + 💻 [TDesign](https://tdesign.tencent.com/vue-next/getting-started) - TDesign 适配桌面端的组件库
 + 🎨 [Less](https://less.bootcss.com/) - CSS 预处理器
++ 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 无需引入
++ 😃 [Icons auto install](https://github.com/unplugin/unplugin-icons) - 按需访问成千上万的图标作为组件
 + 🔗 [Axios](https://axios-http.com/zh/) - 一个基于 promise 的网络请求库，可以用于浏览器和 node.js
 + 🧰 [Husky](https://typicode.github.io/husky/#/) + [Lint-Staged](https://github.com/okonet/lint-staged) - Git Hook 工具
-+ 🛡️ [EditorConfig](http://editorconfig.org) + [ESLint](http://eslint.cn) + [Prettier](https://prettier.cn) + [Stylelint](https://stylelint.cn) + [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#translation) - 代码规范
++ 🛡️ [EditorConfig](http://editorconfig.org) + [ESLint](http://eslint.cn) + [Prettier](https://prettier.cn) + [Stylelint](https://stylelint.cn) - 代码规范
 + 🔨 [Commitizen](https://cz-git.qbb.sh/zh) + [Commitlint](https://commitlint.js.org) - 提交规范
 
 
 ## 编码风格
 
-+ [ESLint](https://eslint.org/) 配置为 [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
-+ [Prettier](https://prettier.io) 配置为  [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
-+ [Stylelint](https://stylelint.io) 配置为  [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
++ 使用 Composition API [`<script setup>` SFC 语法](https://github.com/vuejs/rfcs/pull/227)
++ [ESLint](https://eslint.org/)
++ [Prettier](https://prettier.io)
++ [Stylelint](https://stylelint.io)
 
 ## 开发工具
 
-+ [npm](https://www.npmjs.com) - 包管理器
++ [pnpm](https://pnpm.io/zh/) - 快, 节省磁盘空间的包管理器
 + [Visual Stuido Code 扩展](./.vscode/extensions.json)
   + [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - 自动启动 Vite 服务器
   + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE 支持
@@ -69,7 +72,7 @@
 
 ## 现在可以试试！
 
-> Vite3 Vue3 JavaScript Starter Template 需要 Node 版本 >= 14.18
+> Vite5 Vue3 JavaScript Starter Template 需要 Node 版本 >= 14.18
 
 ### GitHub 模板
 
