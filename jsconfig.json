@@ -1,14 +1,20 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "module": "esnext",
-    "lib": ["esnext", "dom"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": false,
+    "lib": ["ESNext", "DOM"],
     "jsx": "preserve",
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*", "./mock/*"]
+    },
+    "types": ["element-plus/global"]
   },
-  "exclude": ["node_modules"]
+  "include": ["mock/*.js", "src/**/*.js", "src/**/*.vue", "vite.config.js"],
+  "exclude": ["dist", "node_modules"]
 }
