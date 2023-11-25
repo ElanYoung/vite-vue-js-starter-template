@@ -12,7 +12,7 @@
  * revert：回退代码
  */
 /** @type {import('cz-git').UserConfig} */
-module.exports = {
+export default {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'body-leading-blank': [2, 'always'],
