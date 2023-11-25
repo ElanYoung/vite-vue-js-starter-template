@@ -1,32 +1,38 @@
+# Dependencies
+node_modules
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-.DS_Store
+# Temp directories
+.temp
+.tmp
+.cache
+.eslintcache
+.stylelintcache
+
+# Generated dirs
 dist
 dist-ssr
-*.local
 
-/cypress/videos/
-/cypress/screenshots/
+# VSCode
+.vscode
 
-# Editor directories and files
+# Intellij IDEA
+*.iml
 .idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
 
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
 
-components.d.ts
-auto-imports.d.ts
+# unplugin
+*.d.ts
