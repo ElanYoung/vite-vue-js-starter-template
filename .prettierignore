@@ -19,3 +19,4 @@ pnpm-lock.yaml
 ## Built-files
 .cache
 dist
+node_modules
