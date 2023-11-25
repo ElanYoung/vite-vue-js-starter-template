@@ -2,13 +2,18 @@
   "editor.tabSize": 2,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
-  "eslint.validate": ["javascript", "javascriptvue", "vue"],
-  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass", "html"],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "eslint.experimental.useFlatConfig": true,
   "cSpell.words": ["stylelint", "pinia", "commitlint", "unplugin"]
 }
