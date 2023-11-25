@@ -1,15 +1,10 @@
-# .stylelintignore
-# 旧的不需打包的样式库
-*.min.css
+# 忽略目录
+node_modules/
+build/
+dist/
+public/
 
-# 其他类型文件
-*.js
-*.jpg
-*.woff
-
-# 测试和打包目录
-/test/
-/dist/*
-/public/*
-public/*
-/node_modules/
+# 忽略文件
+**/*.min.css
+**/*-min.css
+**/*.bundle.css

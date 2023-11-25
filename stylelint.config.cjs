@@ -1,6 +1,5 @@
 module.exports = {
   root: true,
-  defaultSeverity: 'error',
   plugins: ['stylelint-order', 'stylelint-less'],
   extends: [
     'stylelint-config-standard', // the standard shareable config for Stylelint
@@ -30,6 +29,9 @@ module.exports = {
           'each',
           'include',
           'mixin',
+          'extend',
+          'content',
+          'use',
         ],
       },
     ],
@@ -53,7 +55,7 @@ module.exports = {
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
   overrides: [
     {
-      files: ['*.vue', '**/*.vue', '*.html', '**/*.html'],
+      files: ['**/*.(css|html|vue)'],
       customSyntax: 'postcss-html',
       rules: {
         // 禁止未知的伪类选择器
@@ -65,6 +67,7 @@ module.exports = {
     {
       files: ['*.less', '**/*.less'],
       customSyntax: 'postcss-less',
+      extends: ['stylelint-config-standard-less'],
       rules: {
         'less/color-no-invalid-hex': true,
         'less/no-duplicate-variables': true,
