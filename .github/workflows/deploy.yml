@@ -12,26 +12,47 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x]
+        node-version: [18.x, 20.x]
 
     steps:
       - name: Checkout
         # 拉取 GitHub 仓库代码
         uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Install Node.js ${{ matrix.node-version }}
         # 设定 Node.js 环境
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install
+      - name: Install pnpm
+        id: pnpm-install
+        uses: pnpm/action-setup@v2
         # 安装依赖
-        run: npm install --legacy-peer-deps
+        with:
+          version: 8.6.10
+          run_install: false
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
 
       - name: Build
         # 打包
-        run: npm run build
+        run: pnpm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
