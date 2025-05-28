@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // 创建请求实例
 const instance = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_GLOB_DOMAIN_URL,
   // 指定请求超时的毫秒数
   timeout: 1000,
   // 表示跨域请求时是否需要使用凭证
