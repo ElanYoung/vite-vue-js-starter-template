@@ -17,20 +17,20 @@ jobs:
     steps:
       - name: Checkout
         # 拉取 GitHub 仓库代码
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Node.js ${{ matrix.node-version }}
         # 设定 Node.js 环境
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
 
       - name: Install pnpm
         id: pnpm-install
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v3
         # 安装依赖
         with:
-          version: 10.11.10
+          version: 10
           run_install: false
 
       - name: Get pnpm store directory
@@ -39,7 +39,7 @@ jobs:
         run: |
           echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         name: Setup pnpm cache
         with:
           path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
