@@ -5,17 +5,12 @@ permissions:
 
 on:
   push:
-    # master 分支有 push 时触发
     branches: [master]
 
 jobs:
   deploy:
     # 指定虚拟机环境
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
 
     steps:
       - name: Checkout 🛎️
@@ -36,12 +31,6 @@ jobs:
         with:
           version: 9
           run_install: false
-
-      - name: Get pnpm store directory
-        id: pnpm-cache
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
