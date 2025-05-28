@@ -1,5 +1,8 @@
 name: Vite Vue Deploy
 
+permissions:
+  contents: write
+
 on:
   push:
     # master 分支有 push 时触发
@@ -15,22 +18,23 @@ jobs:
         node-version: [18.x, 20.x, 22.x]
 
     steps:
-      - name: Checkout
+      - name: Checkout 🛎️
         # 拉取 GitHub 仓库代码
         uses: actions/checkout@v4
 
-      - name: Install Node.js ${{ matrix.node-version }}
+      - name: Install Node.js
         # 设定 Node.js 环境
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 20
+          registry-url: https://registry.npmjs.com/
 
       - name: Install pnpm
         id: pnpm-install
         uses: pnpm/action-setup@v3
         # 安装依赖
         with:
-          version: 10
+          version: 9
           run_install: false
 
       - name: Get pnpm store directory
@@ -39,24 +43,20 @@ jobs:
         run: |
           echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
-      - uses: actions/cache@v4
-        name: Setup pnpm cache
-        with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Build
+      - name: Build 🔧
         # 打包
         run: pnpm run build
 
-      - name: Deploy
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署打包目录
           folder: dist
+          # 是否清理旧文件
+          clean: true
           # 密钥名
           token: ${{ secrets.VITE_VUE_DEPLOY }}
           # 分支
