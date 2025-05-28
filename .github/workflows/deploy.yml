@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [18.x, 20.x, 22.x]
 
     steps:
       - name: Checkout
@@ -30,7 +30,7 @@ jobs:
         uses: pnpm/action-setup@v2
         # 安装依赖
         with:
-          version: 8.6.10
+          version: 10.11.10
           run_install: false
 
       - name: Get pnpm store directory
