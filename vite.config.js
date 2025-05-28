@@ -86,8 +86,6 @@ export default ({ mode }) => {
       sourcemap: false,
       //  chunk 大小警告的限制（以 kbs 为单位）
       chunkSizeWarningLimit: 2000,
-      // 启用/禁用 gzip 压缩大小报告
-      reportCompressedSize: false,
       // 自定义底层的 Rollup 打包配置
       rollupOptions: {
         output: {
@@ -97,12 +95,6 @@ export default ({ mode }) => {
           chunkFileNames: 'static/js/[name]-[hash].js',
           // 自定义构建结果中的静态资源名称
           assetFileNames: 'static/[ext]/[name]-[hash].[ext]',
-          // 压缩 Rollup 产生的额外代码
-          compact: true,
-          // 创建自定义的公共 chunk
-          manualChunks: {
-            vue: ['vue', 'vue-router', 'pinia'],
-          },
         },
       },
     },
