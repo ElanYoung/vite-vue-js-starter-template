@@ -3,6 +3,7 @@
   "description": "Vue3 JavaScript Starter Project For Vite.",
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@10.11.0",
   "license": "MIT",
   "author": {
     "name": "ElanYoung",
