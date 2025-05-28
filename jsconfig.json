@@ -12,8 +12,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*", "./mock/*"]
-    },
-    "types": ["element-plus/global"]
+    }
   },
   "include": ["mock/*.js", "src/**/*.js", "src/**/*.vue", "vite.config.js"],
   "exclude": ["dist", "node_modules"]

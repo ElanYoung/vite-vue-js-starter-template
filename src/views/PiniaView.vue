@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style lang="less">
-@media (min-width: 1024px) {
+@media (width >= 1024px) {
   .pinia {
     display: flex;
     align-items: center;

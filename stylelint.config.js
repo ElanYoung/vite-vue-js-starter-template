@@ -1,6 +1,5 @@
-module.exports = {
-  root: true,
-  plugins: ['stylelint-order', 'stylelint-less'],
+export default {
+  plugins: ['stylelint-order', 'stylelint-less', 'stylelint-prettier'],
   extends: [
     'stylelint-config-standard', // the standard shareable config for Stylelint
     'stylelint-config-html/html', // the shareable html config for Stylelint.
@@ -8,6 +7,7 @@ module.exports = {
     'stylelint-config-recess-order', // use the clean order for properties
   ],
   rules: {
+    'prettier/prettier': true,
     // 禁止在覆盖高特异性选择器之后出现低特异性选择器
     'no-descending-specificity': null,
     // 禁止空源码
@@ -39,12 +39,8 @@ module.exports = {
     'function-no-unknown': null,
     // 不允许未知单位
     'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
-    // 标记 CSS 规范中未知属性值
-    'declaration-property-value-no-unknown': true,
     // 不允许选择器使用供应商前缀
     'selector-no-vendor-prefix': null,
-    // 指定关键帧名称的模式
-    'keyframes-name-pattern': null,
     // 指定类选择器的模式
     'selector-class-pattern': null,
     // 不允许值使用供应商前缀
@@ -68,10 +64,6 @@ module.exports = {
       files: ['*.less', '**/*.less'],
       customSyntax: 'postcss-less',
       extends: ['stylelint-config-standard-less'],
-      rules: {
-        'less/color-no-invalid-hex': true,
-        'less/no-duplicate-variables': true,
-      },
     },
   ],
 };
