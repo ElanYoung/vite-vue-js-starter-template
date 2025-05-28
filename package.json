@@ -42,6 +42,8 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.27.0",
+    "@iconify-json/material-symbols": "^1.2.22",
+    "@iconify-json/tdesign": "^1.2.8",
     "@vitejs/plugin-vue": "^5.2.4",
     "autoprefixer": "^10.4.21",
     "cz-git": "^1.11.1",

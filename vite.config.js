@@ -6,6 +6,7 @@ import IconsResolver from 'unplugin-icons/resolver';
 import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import { TDesignResolver } from 'unplugin-vue-components/resolvers';
+import { include, exclude } from './build/optimize';
 
 export default ({ mode }) => {
   const { VITE_PORT, VITE_BASE_URL } = loadEnv(mode, process.cwd());
@@ -35,7 +36,7 @@ export default ({ mode }) => {
             library: 'vue-next',
           }),
           IconsResolver({
-            enabledCollections: ['lets-icons'],
+            enabledCollections: ['mdi'],
           }),
         ],
       }),
@@ -59,10 +60,7 @@ export default ({ mode }) => {
         },
       },
     },
-    optimizeDeps: {
-      include: ['mitt', 'dayjs', 'axios', 'pinia', '@vueuse/core'],
-      exclude: ['@iconify-icons/lets-icons'],
-    },
+    optimizeDeps: { include, exclude },
     server: {
       // 端口号
       port: VITE_PORT,
@@ -85,7 +83,7 @@ export default ({ mode }) => {
       // 构建后是否生成 source map 文件
       sourcemap: false,
       //  chunk 大小警告的限制（以 kbs 为单位）
-      chunkSizeWarningLimit: 2000,
+      chunkSizeWarningLimit: 4000,
       // 自定义底层的 Rollup 打包配置
       rollupOptions: {
         output: {
